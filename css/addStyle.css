@@ -1,0 +1,112 @@
+@media (min-width: 1400px) { 
+    .container, .container-sm, .container-md, .container-lg, .container-xl {
+        max-width: 1240px;
+    }
+}
+@media (min-width: 1600px) {
+    .container, .container-sm, .container-md, .container-lg, .container-xl {
+        max-width: 1440px;
+    }
+} 
+
+.hidden{
+    display:none;
+}
+
+.post-date{
+    background:#f4f4f4;
+    padding : 4px;
+    margin:3px;
+    display : block;
+}
+.post-btn{
+    margin-top: 10px;
+    float: right;
+    display: table;
+} 
+.post-btn form{    
+    display: table-cell;
+}
+.post-btn input, .post-btn a{
+    display: table-cell;
+    
+    margin:0 4px;
+    border : 1px solid #747474;
+} 
+.post-right{
+    text-align: right;
+}
+
+.post-thumb{
+	width:100%;
+}
+#divArea{
+    margin: 10px 0 ;
+    display: flex;
+}
+#divpaging{
+    /*text-align: center;
+    display: flex;*/
+    margin: 0 auto;
+}
+
+.pagination-links{
+	margin:30px 0;
+}
+
+.pagination-links strong{
+	padding: 8px 13px;
+	margin:5px;
+	background: #f4f4f4;
+	border: 1px #ccc solid;
+}
+
+a.pagination-link{
+	padding: 8px 13px;
+	margin:5px;
+	background: #f4f4f4;
+	border: 1px #ccc solid;
+}
+
+.cat-delete{
+	display:inline;
+}
+
+
+table.tbList{
+	width:100%;
+	border:1px solid #dedede;
+	font-size:18px;
+    border-left: 0;
+    border-right: 0;
+}
+table.tbList th{
+	height:40px;
+}
+table.tbList td{
+	height:30px;
+}
+
+
+
+.img .content{
+    position: relative;
+    top: 80%;
+    left: 15%;
+    transform: translate(-50%, -50%);                                                                   
+    font-size:2rem;
+       font-weight: 700;
+    color: #fff;
+    z-index: 2;
+    text-align: center;
+ }
+ td.download{
+    width: 16px;
+    height: 16px;
+    background-image: url(../images/dx-upload5-download-icon.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 32px;
+    border: none;
+    cursor:pointer;
+}
